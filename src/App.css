@@ -62,10 +62,10 @@ footer {
 }
 
 .contact-button {
-  background-color: pink; /* Green background */
+  background-color: pink; 
   color: white;
   padding: 10px 20px;
-  margin: 5px 0; /* Adjust spacing between buttons */
+  margin: 5px 0; 
   text-align: center;
   text-decoration: none;
   display: inline-block;
