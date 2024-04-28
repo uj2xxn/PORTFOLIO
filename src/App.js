@@ -11,22 +11,22 @@ function App() {
       </header>
       <section id = "title">
         <h1>[이유진 포트폴리오]</h1>
-        <div className = "image-yj">
+        <div className = "profile-container">
           <img src = "yj.png" alt = "이유진" style = {{maxWidth: '200px', height: 'auto'}} />
+          <div className="buttons-container">
+            <a href="https://github.com/uj2xxn" target="_blank" rel="noopener noreferrer" className="contact-button">GitHub</a>
+            <a href="mailto:youjin1724@naver.com" className="contact-button">E-mail</a>
+          </div>
         </div>
+        <div className="introduction">
         <h2>자기소개</h2>
         <p>Frontend 개발자</p>
         <p>이유진</p>
+        </div>
       </section>
       <section id="education">
         <h2>학교 및 전공</h2>
         <p>한국외국어대학교 서울캠퍼스 본전공 : 행정학과 / 이중전공 : AI 융합학부</p>
-      </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>깃허브 아이디 : uj2xxn</p>
-        <p>전화번호 : 010 - 8975 - 1724</p>
-        <p>이메일 : youjin1724@naver.com</p>
       </section>
       <section id="values">
         <h2>가치관</h2>
